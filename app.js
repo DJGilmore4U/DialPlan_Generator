@@ -62,6 +62,6 @@ $(function(){
         }
     });
 
-    var clipboard = new Clipboard('#copytoclipboard');
+    var clipboard = new ClipboardJS('#copytoclipboard');
 
 });
